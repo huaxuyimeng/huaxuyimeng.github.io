@@ -1,0 +1,18 @@
+[
+  {
+    "user_id": 1,
+    "username": "admin1",
+    "user_password": "0192023a7bbd73250516f069df18b500",
+    "merchant_id": 1,
+    "created_at": "2025/6/26 01:40:05",
+    "is_admin": 1
+  },
+  {
+    "user_id": 2,
+    "username": "user2",
+    "user_password": "efd398f9c21a334f1c3940de1862d5e8",
+    "merchant_id": 2,
+    "created_at": "2025/6/26 01:36:31",
+    "is_admin": 2
+  }
+]

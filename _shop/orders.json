@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "merchant_id": 1,
+    "product_id": 1,
+    "quantity": 1,
+    "status": "待发货",
+    "created_at": "2025/6/20 10:30:00",
+    "total_amount": 5299.0
+  },
+  {
+    "id": 2,
+    "merchant_id": 2,
+    "product_id": 1,
+    "quantity": 2,
+    "status": "已发货",
+    "created_at": "2025/6/20 11:15:00",
+    "total_amount": 10598.0
+  },
+  {
+    "id": 3,
+    "merchant_id": 1,
+    "product_id": 1,
+    "quantity": 3,
+    "status": "待发货",
+    "created_at": "2025/6/21 09:20:00",
+    "total_amount": 15897.0
+  },
+  {
+    "id": 4,
+    "merchant_id": 2,
+    "product_id": 2,
+    "quantity": 1,
+    "status": "已发货",
+    "created_at": "2025/6/20 14:45:00",
+    "total_amount": 199.0
+  },
+  {
+    "id": 5,
+    "merchant_id": 1,
+    "product_id": 2,
+    "quantity": 3,
+    "status": "待发货",
+    "created_at": "2025/6/21 16:30:00",
+    "total_amount": 597.0
+  },
+  {
+    "id": 6,
+    "merchant_id": 2,
+    "product_id": 2,
+    "quantity": 5,
+    "status": "已发货",
+    "created_at": "2025/6/22 08:15:00",
+    "total_amount": 995.0
+  },
+  {
+    "id": 7,
+    "merchant_id": 1,
+    "product_id": 3,
+    "quantity": 2,
+    "status": "待发货",
+    "created_at": "2025/6/21 12:00:00",
+    "total_amount": 2598.0
+  },
+  {
+    "id": 8,
+    "merchant_id": 2,
+    "product_id": 3,
+    "quantity": 1,
+    "status": "已发货",
+    "created_at": "2025/6/22 10:30:00",
+    "total_amount": 1299.0
+  },
+  {
+    "id": 9,
+    "merchant_id": 1,
+    "product_id": 3,
+    "quantity": 4,
+    "status": "待发货",
+    "created_at": "2025/6/23 15:45:00",
+    "total_amount": 5196.0
+  },
+  {
+    "id": 10,
+    "merchant_id": 2,
+    "product_id": 4,
+    "quantity": 3,
+    "status": "已发货",
+    "created_at": "2025/6/20 16:20:00",
+    "total_amount": 36.0
+  },
+  {
+    "id": 11,
+    "merchant_id": 1,
+    "product_id": 4,
+    "quantity": 5,
+    "status": "待发货",
+    "created_at": "2025/6/21 13:10:00",
+    "total_amount": 60.0
+  },
+  {
+    "id": 12,
+    "merchant_id": 2,
+    "product_id": 4,
+    "quantity": 2,
+    "status": "已发货",
+    "created_at": "2025/6/22 11:25:00",
+    "total_amount": 24.0
+  },
+  {
+    "id": 13,
+    "merchant_id": 1,
+    "product_id": 5,
+    "quantity": 2,
+    "status": "待发货",
+    "created_at": "2025/6/20 17:30:00",
+    "total_amount": 30.0
+  },
+  {
+    "id": 14,
+    "merchant_id": 2,
+    "product_id": 5,
+    "quantity": 4,
+    "status": "已发货",
+    "created_at": "2025/6/21 14:20:00",
+    "total_amount": 60.0
+  },
+  {
+    "id": 15,
+    "merchant_id": 1,
+    "product_id": 5,
+    "quantity": 1,
+    "status": "待发货",
+    "created_at": "2025/6/22 09:45:00",
+    "total_amount": 15.0
+  },
+  {
+    "id": 16,
+    "merchant_id": 1,
+    "product_id": 1,
+    "quantity": 1,
+    "status": "待发货",
+    "created_at": "2025/6/20 10:30:00",
+    "total_amount": 5299.0
+  },
+  {
+    "id": 17,
+    "merchant_id": 2,
+    "product_id": 1,
+    "quantity": 2,
+    "status": "已发货",
+    "created_at": "2025/6/20 11:15:00",
+    "total_amount": 10598.0
+  },
+  {
+    "id": 18,
+    "merchant_id": 1,
+    "product_id": 2,
+    "quantity": 3,
+    "status": "待发货",
+    "created_at": "2025/6/21 16:30:00",
+    "total_amount": 597.0
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "联想笔记本",
+    "price": 5299.0,
+    "merchant_id": 1,
+    "created_at": "2025/6/20 15:26:53",
+    "stock": 100,
+    "image_url": "https://via.placeholder.com/300x200?text=商品图片",
+    "description": "高性能笔记本电脑，适合办公和游戏"
+  },
+  {
+    "id": 2,
+    "name": "小米手环",
+    "price": 199.0,
+    "merchant_id": 2,
+    "created_at": "2025/6/20 15:26:53",
+    "stock": 100,
+    "image_url": "https://via.placeholder.com/300x200?text=商品图片",
+    "description": "智能手环，健康监测"
+  },
+  {
+    "id": 3,
+    "name": "荣耀平板",
+    "price": 1299.0,
+    "merchant_id": 2,
+    "created_at": "2025/6/21 11:56:36",
+    "stock": 90,
+    "image_url": "https://via.placeholder.com/300x200?text=商品图片",
+    "description": "轻薄平板电脑，娱乐办公两不误"
+  },
+  {
+    "id": 4,
+    "name": "包",
+    "price": 12.0,
+    "merchant_id": 1,
+    "created_at": "2025/6/22 00:15:43",
+    "stock": 100,
+    "image_url": "https://via.placeholder.com/300x200?text=商品图片",
+    "description": "时尚包包，实用美观"
+  },
+  {
+    "id": 5,
+    "name": "玩具",
+    "price": 15.0,
+    "merchant_id": 1,
+    "created_at": "2025/6/22 13:23:34",
+    "stock": 20,
+    "image_url": null,
+    "description": "高品质玩具，安全环保"
+  }
+]
