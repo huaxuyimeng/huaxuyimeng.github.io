@@ -1,0 +1,25 @@
+// styles/themes/light.scss
+// 浅色主题样式
+
+@import '../variables.scss';
+
+// 浅色主题变量覆盖
+$light-primary-color: #007AFF;
+$light-background-color: #FFFFFF;
+$light-text-color: #000000;
+
+.theme-light {
+  background-color: $light-background-color;
+  color: $light-text-color;
+
+  .card {
+    background: $white;
+    color: $gray-8;
+  }
+
+  .input {
+    background: $white;
+    border-color: $gray-3;
+    color: $gray-8;
+  }
+}

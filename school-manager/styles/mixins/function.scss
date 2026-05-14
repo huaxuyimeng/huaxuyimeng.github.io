@@ -1,0 +1,78 @@
+// Function 模块样式 Mixins
+@import '../variables.scss';
+
+// 模态框遮罩层 Mixin
+@mixin modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: $z-index-modal;
+}
+
+// 菜单遮罩层 Mixin
+@mixin menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: $z-index-popup;
+}
+
+// 搜索框 Mixin
+@mixin search-bar {
+  display: flex;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  background: $white;
+  border-bottom: 1rpx solid $gray-2;
+}
+
+// 页面头部 Mixin
+@mixin page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  height: 90rpx;
+  background: $white;
+  border-bottom: 1rpx solid $gray-2;
+}
+
+// 章节头部 Mixin
+@mixin section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+// 模态框内容 Mixin
+@mixin modal-content {
+  background: $white;
+  border-radius: 20rpx;
+  overflow: hidden;
+  width: 600rpx;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// 卡片容器 Mixin
+@mixin card-container {
+  background: $white;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: $shadow-sm;
+}

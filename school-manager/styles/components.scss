@@ -1,0 +1,148 @@
+// styles/components.scss
+// 组件样式
+
+@import './variables.scss';
+
+// 按钮组件
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-2 $spacing-4;
+  border-radius: $border-radius-base;
+  font-size: $font-size-base;
+  border: none;
+  cursor: pointer;
+  transition: all $transition-duration $transition-timing;
+
+  &.block {
+    width: 100%;
+  }
+
+  &.small {
+    padding: $spacing-1 $spacing-2;
+    font-size: $font-size-sm;
+  }
+
+  &.large {
+    padding: $spacing-3 $spacing-5;
+    font-size: $font-size-lg;
+  }
+}
+
+// 卡片组件
+.card {
+  background: $white;
+  border-radius: $border-radius-base;
+  padding: $spacing-3;
+  margin-bottom: $spacing-2;
+  box-shadow: $shadow-sm;
+
+  &.shadow {
+    box-shadow: $shadow-base;
+  }
+
+  &.no-padding {
+    padding: 0;
+  }
+}
+
+// 输入框组件
+.input {
+  width: 100%;
+  padding: $spacing-2 $spacing-3;
+  border: 1rpx solid $gray-3;
+  border-radius: $border-radius-base;
+  font-size: $font-size-base;
+  background: $white;
+  box-sizing: border-box;
+
+  &.error {
+    border-color: $danger-color;
+  }
+
+  &.disabled {
+    background: $gray-1;
+    color: $gray-5;
+  }
+}
+
+// 模态框组件
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: $z-index-modal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    position: relative;
+    background: $white;
+    border-radius: $border-radius-lg;
+    padding: $spacing-4;
+    max-width: 600rpx;
+    max-height: 80vh;
+    overflow: auto;
+  }
+}
+
+// 弹出层组件
+.popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-index-popup;
+  background: $white;
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+  transform: translateY(100%);
+  transition: transform $transition-duration $transition-timing;
+
+  &.active {
+    transform: translateY(0);
+  }
+}
+
+// 骨架屏组件
+.skeleton {
+  background: linear-gradient(90deg, $gray-2 25%, $gray-1 50%, $gray-2 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+// Toast 组件
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: $z-index-toast;
+  background: rgba(0, 0, 0, 0.7);
+  color: $white;
+  padding: $spacing-2 $spacing-4;
+  border-radius: $border-radius-base;
+  font-size: $font-size-base;
+}

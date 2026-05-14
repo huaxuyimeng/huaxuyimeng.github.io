@@ -1,0 +1,29 @@
+// styles/themes/dark.scss
+// 深色主题样式
+
+@import '../variables.scss';
+
+// 深色主题变量覆盖
+$dark-primary-color: #5AC8FA;
+$dark-background-color: #1C1C1E;
+$dark-text-color: #FFFFFF;
+
+.theme-dark {
+  background-color: $dark-background-color;
+  color: $dark-text-color;
+
+  .card {
+    background: #2C2C2E;
+    color: $white;
+  }
+
+  .input {
+    background: #2C2C2E;
+    border-color: #3A3A3C;
+    color: $white;
+  }
+
+  .divider {
+    background: #3A3A3C;
+  }
+}

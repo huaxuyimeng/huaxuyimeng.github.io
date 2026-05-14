@@ -1,0 +1,98 @@
+/* iconfont 图标字体样式 */
+/* 注意：当前使用 Emoji 作为图标，不需要字体文件 */
+/* 如果需要使用真正的字体文件，请从 iconfont.cn 下载字体文件并取消下面的注释 */
+/*
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.woff2') format('woff2'),
+       url('iconfont.woff') format('woff'),
+       url('iconfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+.iconfont {
+  /* 使用 Emoji 图标时不需要设置 font-family */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+/* 使用 Unicode Emoji 作为图标（临时方案，推荐使用 SVG） */
+.icon-schedule::before { content: "📅"; }
+.icon-library::before { content: "📚"; }
+.icon-card::before { content: "💳"; }
+.icon-map::before { content: "🗺️"; }
+.icon-canteen::before { content: "🍽️"; }
+.icon-bus::before { content: "🚌"; }
+.icon-score::before { content: "📊"; }
+.icon-lost::before { content: "🔍"; }
+.icon-leave::before { content: "📝"; }
+.icon-electricity::before { content: "⚡"; }
+.icon-repair::before { content: "🔧"; }
+.icon-classroom::before { content: "🏫"; }
+.icon-exam::before { content: "📝"; }
+.icon-video::before { content: "🎥"; }
+.icon-ebook::before { content: "📖"; }
+.icon-experiment::before { content: "🔬"; }
+.icon-hospital::before { content: "🏥"; }
+.icon-service::before { content: "🛎️"; }
+.icon-psychology::before { content: "💭"; }
+.icon-career::before { content: "💼"; }
+.icon-post::before { content: "📮"; }
+.icon-activity::before { content: "🎉"; }
+.icon-consult::before { content: "💬"; }
+.icon-feedback::before { content: "📋"; }
+.icon-scan::before { content: "📷"; }
+.icon-share::before { content: "↗️"; }
+.icon-calendar::before { content: "📅"; }
+.icon-weather::before { content: "🌤️"; }
+.icon-notice::before { content: "📢"; }
+.icon-wifi::before { content: "📶"; }
+.icon-all::before { content: "📦"; }
+.icon-study::before { content: "📚"; }
+.icon-life::before { content: "🏠"; }
+.icon-campus::before { content: "🏛️"; }
+.icon-tools::before { content: "🛠️"; }
+.icon-entertainment::before { content: "🎮"; }
+.icon-social::before { content: "👥"; }
+
+/* 通用图标 */
+.icon-search::before { content: "🔍"; }
+.icon-location::before { content: "📍"; }
+.icon-notification::before { content: "🔔"; }
+.icon-settings::before { content: "⚙️"; }
+.icon-add::before { content: "+"; }
+.icon-close::before { content: "×"; }
+.icon-back::before { content: "←"; }
+.icon-forward::before { content: "→"; }
+.icon-up::before { content: "↑"; }
+.icon-down::before { content: "↓"; }
+.icon-check::before { content: "✓"; }
+.icon-edit::before { content: "✏️"; }
+.icon-delete::before { content: "🗑️"; }
+.icon-like::before { content: "❤️"; }
+.icon-unlike::before { content: "🤍"; }
+.icon-view::before { content: "👁️"; }
+.icon-more::before { content: "⋯"; }
+.icon-menu::before { content: "☰"; }
+.icon-user::before { content: "👤"; }
+.icon-time::before { content: "⏰"; }
+.icon-date::before { content: "📅"; }
+.icon-folder::before { content: "📁"; }
+.icon-export::before { content: "📤"; }
+.icon-sync::before { content: "🔄"; }
+.icon-lock::before { content: "🔒"; }
+.icon-unlock::before { content: "🔓"; }
+.icon-play::before { content: "▶️"; }
+.icon-pause::before { content: "⏸️"; }
+.icon-stop::before { content: "⏹️"; }
+
+

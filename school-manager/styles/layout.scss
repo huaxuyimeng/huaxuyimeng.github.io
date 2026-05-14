@@ -1,0 +1,129 @@
+// styles/layout.scss
+// 布局相关样式
+
+@import './variables.scss';
+
+// 页面容器
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background: $gray-1;
+  box-sizing: border-box;
+}
+
+// 内容区域
+.content {
+  width: 100%;
+  padding: $spacing-3;
+  box-sizing: border-box;
+}
+
+// 头部导航
+.header {
+  position: sticky;
+  top: 0;
+  z-index: $z-index-header;
+  background: $white;
+  border-bottom: 1rpx solid $gray-2;
+}
+
+// 底部导航
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-index-footer;
+  background: $white;
+  border-top: 1rpx solid $gray-2;
+}
+
+// 侧边栏
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 600rpx;
+  background: $white;
+  z-index: $z-index-sidebar;
+  box-shadow: $shadow-lg;
+  transform: translateX(-100%);
+  transition: transform $transition-duration $transition-timing;
+  
+  &.active {
+    transform: translateX(0);
+  }
+}
+
+// 遮罩层
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: $z-index-overlay;
+  opacity: 0;
+  visibility: hidden;
+  transition: all $transition-duration $transition-timing;
+  
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// 网格布局
+.grid {
+  display: grid;
+  gap: $spacing-2;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+// 列表布局
+.list {
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: $spacing-3;
+  background: $white;
+  border-bottom: 1rpx solid $gray-2;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+// 固定定位容器
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-index-header;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-index-footer;
+}
+
